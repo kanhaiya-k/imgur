@@ -1,0 +1,113 @@
+.Navbar-maindiv {
+  background-image: url("./img/backgroundimg.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  margin: -1%;
+  padding-right: 1.5%;
+}
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.logo {
+  padding: 20px;
+  width: 100px;
+  height: 35px;
+  margin-left: 15%;
+}
+.newpost-button {
+  margin-top: 1%;
+  width: 140px;
+  height: 60px;
+}
+.newpost-button button {
+  width: 120px;
+  height: 40px;
+  background-color: #31be7c;
+  border: none;
+  font-size: 19px;
+  color: whitesmoke;
+  padding-bottom: 12px;
+  border-radius: 5px;
+}
+.newpost-button button img {
+  padding-top: 8px;
+}
+.adfree-button button {
+  width: 120px;
+  height: 40px;
+  background-color: #6432f9;
+  border: none;
+  font-size: 19px;
+  color: whitesmoke;
+  padding-bottom: 6px;
+  border-radius: 5px;
+}
+
+.input-serach input {
+  width: 400px;
+  border: 1px solid #e0e0e0;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #454469;
+  font-size: 15px;
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+}
+.users-avtar {
+  width: 40px;
+  height: 40px;
+  border-radius: 80%;
+  margin-right: 20px;
+}
+
+.heading-breathtaking h1 {
+  color: whitesmoke;
+  font-size: 25px;
+  text-align: center;
+}
+.images-div {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  flex-direction: row;
+  margin-top: 20%;
+}
+.content-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.main-div-imageData {
+  margin-top: 17px;
+  /* padding: 15px; */
+  width: 250px;
+  height: 350px;
+  border: 1px solid red;
+}
+.images img {
+  width: 200px;
+  height: 250px;
+  border: 1px solid red;
+}
+.content-div {
+  border: 1px solid green;
+  width: 250px;
+  height: 100px;
+  margin-top: 100%;
+  background-color: #31be7c;
+}
